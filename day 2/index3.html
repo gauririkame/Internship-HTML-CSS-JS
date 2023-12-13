@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="employee  "  action="send.php" method="post">
+        <table width="800"  border="1"  cellspacing="2" cellpadding="2">
+            <tr>
+                <td>employement application</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>first name</td>
+                <td><input type="text" name ="fname"  maxlength="50"/></td>
+            </tr>
+           
+            <tr>
+                <td>last name</td>
+                <td><input type="text" name ="lname"  maxlength="50"/></td>
+            </tr>
+            <tr>
+                <td> position</td>
+                <td>
+                    <select name="position">
+                        <option value="AC">ACCOUNTANT</option>
+                        <option value="RE">RECEPTIONIST</option>
+                        <option value="AD">ADMINISTRATOR</option>
+                        <option value="SU">SUPERVISIOR</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> EXPERIENCE LEVEL</td>
+                <td>
+                    <select name="EXPERIENCE">
+                        <option value="AC">ENTRY LEVEL</option>
+                        <option value="RE">SOME EXPERIENCE </option>
+                        <option value="AD">VERY EXPERIENCE</option>
+                       
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td> JOB TYPE</td>
+                <td>
+                    <input type="CHECKBOX" name ="FT" />full time
+                    <input type="CHECKBOX" name ="PT" />part time
+                    <input type="CHECKBOX" name ="CT" />contract
+                </td>
+            </tr>
+            <tr>
+                <td> employment status </td>
+                <td>
+                    <input type="radio" name ="estatus"    value="employee"/>employee
+                    
+                    <input type="radio" name ="estatus"    value="unemployee"/>unemployee
+                    
+                    <input type="radio" name ="estatus"    value="status"/>student
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    <input type="button" name="submit" value="Submit"/>
+                    <input type="button" name="reset" value="Reset"/>
+                </td>
+            </tr>
+         
+        </table>
+    </form>
+</body>
+</html>
