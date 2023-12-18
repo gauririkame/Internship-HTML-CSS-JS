@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style   type="text/css">
+       
+		body {
+			margin:0;
+			padding:0;
+			line-height: 1.5em;
+		}
+		
+		#header {
+			background: black;
+			font-family: Arial; 
+			height: 100px;
+		}
+		
+		#contentwrapper {
+			float: left;
+			width: 100%;
+		}
+		
+		#contentcolumn {
+			margin: 0 230px 0 230px;
+		}
+		
+		#leftcolumn {
+			float: left;
+			width: 230px;
+			margin-left: -100%; 
+			background: hsl(334, 100%, 57%);
+		}
+		
+		#rightcolumn {
+			float: left;
+			width: 230px;
+			margin-left: -230px;
+			background: hsl(151, 100%, 50%);
+		}
+		
+		.innertext {
+			margin: 20px;
+			font-family: Arial; 
+			color: #5E5E5E;
+		}
+		
+		#footer {
+			clear: left;
+			width: 100%;
+			background: black;
+			color: #FFF;
+			font-family: Arial;
+			text-align: center;
+			padding: 4px;
+		}
+		
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: #171326;
+		}
+		
+		li {
+			float: left;
+			border-right:1px solid #bbb;
+		}
+		
+		li:last-child {
+			border-right: none;
+		}
+		
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		
+		li a:hover:not(.active) {
+			background-color: 	#808080;
+		}
+		
+		.active {
+			background-color: #0099ff;
+		}	
+		
+		
+		@media (max-width: 840px){
+		
+		#leftcolumn {
+				margin-left: -100%;
+			}
+			
+		#rightcolumn {
+				float: none;
+				width: 100%;
+				margin-left: 0;
+				clear: both;
+			}
+			
+		#contentcolumn {
+				margin-right: 0; 
+			}
+		
+		}
+		
+		
+		
+
+
+       
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div id="header">
+        
+            <ul style="display: inline;">
+              <li><a class="active" href="#home">Home</a></li>
+              <li><a href="#news">About</a></li>
+              <li><a href="#contact">News</a></li>
+              <li><a href="#about">Contact</a></li>		  
+            </ul>
+        
+        </div>
+        
+        <div id="contentwrapper">
+        
+            <div id="contentcolumn">
+            
+                <div class="innertext">
+                
+                    <b>Welcome!</b> <br /> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.	
+    
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                
+                </div>	
+            </div>
+        </div>
+        
+        <div id="leftcolumn">
+            <div class="innertext">
+                <b>Left Column: <em>230px</em></b><br /> The interface design elements for software depict information flows into and out of the system and how it is communicated among the components defined as part of the architecture.
+                There are three important elements of interface design. The standard chunk of Lorem Ipsum used since the 1500s 
+                   
+                    
+            </div>
+        </div>
+        
+        <div id="rightcolumn">
+            <div class="innertext">
+                <b>Right Column: <em>230px</em></b><br /> A set of design classes that refine the analysis classes by providing design detail that will enable the classes to be implemented, and implement a software infrastructure that supports the business solution.
+                Design classes present significantly more technical detail as a guide for implementation.
+               
+               
+            </div>
+        </div>
+        
+        <div id="footer">Footer</div>
+    
+    </div>
+    
+</body>
+</html>
