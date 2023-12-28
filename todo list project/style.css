@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+h1 {
+    text-align: center;
+    background-color:white;
+    color: black;
+}
+
+.todo-app {
+    text-align: center;
+    width: 100%;
+    max-width: 540px;
+    background-color: aliceblue;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.row {
+    color: black;
+    background-color: red;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: antiquewhite;
+    padding: 16px 10px;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    background-color: orange;
+    color: black;
+    font-size: 16px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.task-text {
+    flex: 1;
+    font-size: 25px;
+    background-color:coral; 
+    padding: 25px; 
+    font-weight:bold;
+    text-align: center;
+    color: black;
+}
+
+.delete-button {
+    margin-left: 10px;
+    cursor: pointer;
+    color:red; 
+
+}
