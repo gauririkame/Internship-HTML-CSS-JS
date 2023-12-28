@@ -1,0 +1,59 @@
+/* Add your styles here if needed */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 70px;
+    background-color: skyblue;
+    text-align: center;
+    color:red;
+    font-display: bold;
+}
+
+header {
+    background-color: #333;
+    color:black;
+    padding: 10px;
+}
+
+section {
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 8px;
+}
+input{
+    background-color:darksalmon;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color:aliceblue;
+    margin: 15px 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul li:nth-child(even) {
+    background-color: aliceblue;
+}
